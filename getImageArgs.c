@@ -16,7 +16,7 @@
  *
  *  argc - number of command line arguments
  *  argv - list of command line arguments (list of C-strings)
- *  bitPtr - pointer to integer, number of LSB bits (1, 2, or 4)
+ *  bitPtr - pointer to integer, number of LSb bits (1, 2, or 4)
  *  imageFilename - pointer to the filename that will be encrypted or decrypted 
  */
 int processImageArgs(int argc, char *argv[], int* bitPtr, char imageFilename[]) {
