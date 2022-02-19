@@ -53,7 +53,7 @@ int processImageArgs(int argc, char *argv[], int* bitPtr, char imageFilename[]) 
  */
 void printCommandUsage(char executableName[]) {
     fprintf(stderr, "Usage: %s -b bit ppmImageFilename \n", executableName);
-    fprintf(stderr, " -b number of bits per pixel to decode (1, 2, or 4)\n");
+    fprintf(stderr, " -b number of bits per color component to decode (1, 2, or 4)\n");
 }
 
 
